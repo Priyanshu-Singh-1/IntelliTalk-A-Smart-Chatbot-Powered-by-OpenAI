@@ -1,38 +1,80 @@
-.App {
-  text-align: center;
+*{
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+ .App{
+  /* border: 2px solid black; */
+  margin-top: 6%;
+  padding: 20px;
+  border-radius: 14px;
+  display: grid;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  border-radius: 35px;
+background: #ffffff;
+box-shadow:  10px 10px 16px #c7c7c7,
+             -10px -10px 16px #ffffff;
 }
 
-.App-link {
-  color: #61dafb;
+ .App > h1{
+  /* border: 1px solid green; */
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: -40px;
+ }
+
+ .App > h2{
+  font-size: 20px;
+  /* border: 1px solid red; */
+  text-align: center;
+ }
+
+ .form-input{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  /* border: 2px solid black; */
+  border-radius: 35px;
+background: #ffffff;
+box-shadow:  7px 7px 14px #c4c4c4,
+             -7px -7px 14px #ffffff;
+ }
+
+ .form-input > textarea{
+  width: 90%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: bold;
+ }
+
+ .form-input > ::placeholder{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+ }
+
+.submit{
+  background-color: aquamarine;
+  border-radius: 20px;
+  width: 40%;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+    outline: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.submit:hover{
+  background-color: aqua;
+  transition: 1s;
+}
+
+.elon{
+  /* border: 2px solid black; */
+  margin-top: 4%;
+  font-size: 18px;
+}
+
+.elon > b{
+  color: green;
 }

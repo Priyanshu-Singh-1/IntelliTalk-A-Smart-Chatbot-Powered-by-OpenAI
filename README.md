@@ -2,6 +2,10 @@
 
 Detailed Documentation is coming soon! Stay tuned!
 
+## TechStacks
+
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+
 ## Available Scripts
 
 In the project directory, you can run:
